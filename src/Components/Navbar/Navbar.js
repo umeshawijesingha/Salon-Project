@@ -18,19 +18,31 @@ function Navbar() {
         <li className="nav-item">
           <a className="nav-link" href="/about">About Us</a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/events">Events</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/offers">Offers</a>
+        </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Services</a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Link</a></li>
-            <li><a className="dropdown-item" href="#">Another link</a></li>
-            <li><a className="dropdown-item" href="#">A third link</a></li>
+          <li><a className="dropdown-item" href="services/hair">Hair Care</a></li>
+            <li><a className="dropdown-item" href="#">Skin & Body Care</a></li>
+            <li><a className="dropdown-item" href="#">Hands & Feet Care</a></li>
+            <li><a className="dropdown-item" href="#">Nails</a></li>
+            <li><a className="dropdown-item" href="#">Make-Up</a></li>
+            <li><a className="dropdown-item" href="#">Bridal</a></li>
+            <li><a className="dropdown-item" href="#">Dressings</a></li>
+            
+
           </ul>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/contact">Contact Us</a>
         </li>  
         <li className="nav-item">
-          <a className="nav-link" href="/booking">Booking</a>
+          <button style={{"background-color":"#a10b3d","border":"none","border-radius":"5px","width":"150%"}}><a className="nav-link" href="/booking" style={{"font-size":"18px","color":"white"}}>Book Now</a></button>
         </li>
         
       </ul>

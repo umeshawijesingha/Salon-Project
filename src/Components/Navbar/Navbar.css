@@ -1,15 +1,18 @@
 .navbar{
-  background-color: rgb(246, 131, 221);
+  background-color: #d67096;
+  
   
 }
 
 .nav-item{
-  padding-right: 50px;
+  padding-right: 40px;
  
  
   
 }
+
 .navbar-brand{
   margin-right: 500px;
   margin-left: 50px;
 }
+

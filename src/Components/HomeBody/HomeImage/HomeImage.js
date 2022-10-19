@@ -197,6 +197,7 @@ function HomeImage() {
               style={{ width: "500px", height: "600px", "margin-left": "50px" }}
               alt="..."
             />
+            
             <div className="carousel-caption d-none d-md-block">
               {/* <h5 className="service-desc">Hair Design & style</h5> */}
 

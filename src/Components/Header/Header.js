@@ -11,8 +11,8 @@ function Header() {
           
           <div className="header-icon-menu">
          
-            <FaEnvelope className="header-icon" size={20}/><span>gliz@gmail.com</span>
-            <FaPhoneAlt className="header-icon" size={20}/><span>+94 75874268</span>
+            <FaEnvelope className="header-icon" size={20}/><span style={{color:"#F5DBE5","font-size":"15px"}}>gliz@gmail.com</span>
+            <FaPhoneAlt className="header-icon" size={20}/><span style={{color:"#F5DBE5","font-size":"15px"}}>+94 75874268</span>
           </div>
             
         </div>

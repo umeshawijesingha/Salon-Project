@@ -1,6 +1,6 @@
 
 .header{
-    background-color: rgb(236, 26, 240);
+    background-color: #D67096;
     
     
 }
@@ -13,5 +13,6 @@
 span{
     margin-right: 10%;
     font-size: 18px;
+   
     padding: 5px;
 }

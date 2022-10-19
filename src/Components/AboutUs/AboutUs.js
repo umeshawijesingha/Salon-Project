@@ -37,7 +37,7 @@ const AboutUs = () => {
           }}
         >
           <div className="col-3 " style={{ "margin-right": "200px" }}>
-            <img src={img1} style={{ width: "150%", height: "400px" }} />
+            <img src={img1} style={{ width: "150%", height: "400px","object-fit":"cover" }} />
           </div>
           <div
             className="col-6 "
@@ -94,7 +94,7 @@ const AboutUs = () => {
           }}
         >
           <div className="col-3 " style={{ "margin-right": "200px" }}>
-            <img src={img4} style={{ width: "150%", height: "400px" }} />
+            <img src={img4} style={{ width: "150%", height: "400px" ,"object-fit":"cover"}} />
           </div>
           <div
             className="col-6 "
@@ -159,7 +159,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="col-4">
-          <img src={img5} style={{"width":"450px","height":"450px"}}/>
+          <img src={img5} style={{"width":"450px","height":"450px","object-fit":"cover"}}/>
         </div>
       </div>
 
@@ -186,7 +186,7 @@ const AboutUs = () => {
               color: "white",
             }}
           >
-            Booking Now
+            Book Now
           </button>
         </div>
       </div>
